@@ -13,6 +13,12 @@
 		CECBA8F4253250C6000C90CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBA8F2253250C6000C90CC /* Main.storyboard */; };
 		CECBA8F6253250C9000C90CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBA8F5253250C9000C90CC /* Assets.xcassets */; };
 		CECBA8F9253250C9000C90CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBA8F7253250C9000C90CC /* LaunchScreen.storyboard */; };
+		CECBA919253271A7000C90CC /* Sign_3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA913253271A6000C90CC /* Sign_3.m4a */; };
+		CECBA91A253271A7000C90CC /* Sign_4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA914253271A6000C90CC /* Sign_4.m4a */; };
+		CECBA91B253271A7000C90CC /* Sign_1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA915253271A7000C90CC /* Sign_1.m4a */; };
+		CECBA91C253271A7000C90CC /* Sign_6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA916253271A7000C90CC /* Sign_6.m4a */; };
+		CECBA91D253271A7000C90CC /* Sign_5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA917253271A7000C90CC /* Sign_5.m4a */; };
+		CECBA91E253271A7000C90CC /* Sign_2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CECBA918253271A7000C90CC /* Sign_2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CECBA8F5253250C9000C90CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECBA8F8253250C9000C90CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECBA8FA253250C9000C90CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECBA913253271A6000C90CC /* Sign_3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_3.m4a; sourceTree = "<group>"; };
+		CECBA914253271A6000C90CC /* Sign_4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_4.m4a; sourceTree = "<group>"; };
+		CECBA915253271A7000C90CC /* Sign_1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_1.m4a; sourceTree = "<group>"; };
+		CECBA916253271A7000C90CC /* Sign_6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_6.m4a; sourceTree = "<group>"; };
+		CECBA917253271A7000C90CC /* Sign_5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_5.m4a; sourceTree = "<group>"; };
+		CECBA918253271A7000C90CC /* Sign_2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sign_2.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		CECBA8EB253250C6000C90CC /* Mission Creek */ = {
 			isa = PBXGroup;
 			children = (
+				CECBA91225327190000C90CC /* Audio */,
 				CECBA8EC253250C6000C90CC /* AppDelegate.swift */,
 				CECBA8EE253250C6000C90CC /* SceneDelegate.swift */,
 				CECBA8F0253250C6000C90CC /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				CECBA8FA253250C9000C90CC /* Info.plist */,
 			);
 			path = "Mission Creek";
+			sourceTree = "<group>";
+		};
+		CECBA91225327190000C90CC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CECBA914253271A6000C90CC /* Sign_4.m4a */,
+				CECBA916253271A7000C90CC /* Sign_6.m4a */,
+				CECBA918253271A7000C90CC /* Sign_2.m4a */,
+				CECBA915253271A7000C90CC /* Sign_1.m4a */,
+				CECBA913253271A6000C90CC /* Sign_3.m4a */,
+				CECBA917253271A7000C90CC /* Sign_5.m4a */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +150,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECBA91C253271A7000C90CC /* Sign_6.m4a in Resources */,
+				CECBA91B253271A7000C90CC /* Sign_1.m4a in Resources */,
+				CECBA91E253271A7000C90CC /* Sign_2.m4a in Resources */,
+				CECBA919253271A7000C90CC /* Sign_3.m4a in Resources */,
+				CECBA91D253271A7000C90CC /* Sign_5.m4a in Resources */,
 				CECBA8F9253250C9000C90CC /* LaunchScreen.storyboard in Resources */,
+				CECBA91A253271A7000C90CC /* Sign_4.m4a in Resources */,
 				CECBA8F6253250C9000C90CC /* Assets.xcassets in Resources */,
 				CECBA8F4253250C6000C90CC /* Main.storyboard in Resources */,
 			);
@@ -289,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG5GQB8V9C;
 				INFOPLIST_FILE = "Mission Creek/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bhavesh.org.Mission-Creek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG5GQB8V9C;
 				INFOPLIST_FILE = "Mission Creek/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Bhavesh.org.Mission-Creek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
