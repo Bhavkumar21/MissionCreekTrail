@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //this is a test
-        //bruhhhhh
+        //hello
     }
 
     @IBAction func button_1(_ sender: Any) {
