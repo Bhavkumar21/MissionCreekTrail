@@ -23,17 +23,81 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3pB-ch-NCJ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLS-ps-mdW">
-                                                <rect key="frame" x="166" y="115" width="42" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLS-ps-mdW">
+                                                <rect key="frame" x="0.0" y="50" width="414" height="90"/>
+                                                <color key="backgroundColor" red="0.08235294118" green="0.47450980390000003" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="ODU-Wo-ecl"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uhI-Bv-TjO" userLabel="Group Pic">
+                                                <rect key="frame" x="0.0" y="190" width="414" height="200"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="t3A-eq-i4g"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ggc-lb-gK3" userLabel="Main Pic">
+                                                <rect key="frame" x="50" y="490" width="314" height="150"/>
+                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="uHc-1o-LiA"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-NV-YuB">
+                                                <rect key="frame" x="35" y="757" width="96" height="91"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.082611463960000006" green="0.47496670479999997" blue="0.96568661929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijv-du-Lym">
+                                                <rect key="frame" x="35" y="868" width="96" height="91"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.082611463960000006" green="0.47496670479999997" blue="0.96568661929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bhavesh Kumar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbi-6c-9po">
+                                                <rect key="frame" x="151.66666666666666" y="450" width="110.66666666666666" height="20"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet the Team!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6X-r1-bmz">
+                                                <rect key="frame" x="0.0" y="700" width="414" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="o5L-EM-c4o"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lOn-18-6Tz">
+                                                <rect key="frame" x="35" y="978" width="96" height="91"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.082611463960000006" green="0.47496670479999997" blue="0.96568661929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ggc-lb-gK3" secondAttribute="trailing" constant="50" id="1bc-bH-JTw"/>
+                                            <constraint firstAttribute="trailing" secondItem="RLS-ps-mdW" secondAttribute="trailing" id="1eF-4w-oll"/>
+                                            <constraint firstAttribute="trailing" secondItem="uhI-Bv-TjO" secondAttribute="trailing" id="35z-DF-sRA"/>
+                                            <constraint firstItem="uhI-Bv-TjO" firstAttribute="top" secondItem="RLS-ps-mdW" secondAttribute="bottom" constant="50" id="7Rr-TK-Oeb"/>
+                                            <constraint firstItem="ggc-lb-gK3" firstAttribute="top" secondItem="hbi-6c-9po" secondAttribute="bottom" constant="20" id="9Ox-ne-mS9"/>
+                                            <constraint firstItem="y6X-r1-bmz" firstAttribute="top" secondItem="ggc-lb-gK3" secondAttribute="bottom" constant="60" id="CIz-fp-zCh"/>
+                                            <constraint firstItem="RLS-ps-mdW" firstAttribute="top" secondItem="3pB-ch-NCJ" secondAttribute="top" constant="50" id="DlR-LM-1OM"/>
                                             <constraint firstAttribute="height" constant="2000" id="F51-iX-4ib"/>
+                                            <constraint firstItem="uhI-Bv-TjO" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="PKD-pW-eoq"/>
+                                            <constraint firstItem="hbi-6c-9po" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="QHb-f0-KcN"/>
+                                            <constraint firstItem="ggc-lb-gK3" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="50" id="T36-yt-auL"/>
+                                            <constraint firstItem="ggc-lb-gK3" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="T48-iB-mHF"/>
+                                            <constraint firstItem="y6X-r1-bmz" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="TVI-in-136"/>
+                                            <constraint firstAttribute="trailing" secondItem="y6X-r1-bmz" secondAttribute="trailing" id="UH1-MK-tUX"/>
+                                            <constraint firstItem="uhI-Bv-TjO" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="gue-ET-yRi"/>
+                                            <constraint firstItem="ggc-lb-gK3" firstAttribute="top" secondItem="uhI-Bv-TjO" secondAttribute="bottom" constant="100" id="hZw-IO-Bhh"/>
+                                            <constraint firstItem="RLS-ps-mdW" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="sbT-3e-MQY"/>
+                                            <constraint firstItem="RLS-ps-mdW" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="zLy-aD-aUQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -135,6 +199,9 @@
         <image name="mappin" catalog="system" width="105" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
