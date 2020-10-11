@@ -47,8 +47,8 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bhavesh Kumar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbi-6c-9po">
-                                                <rect key="frame" x="151.66666666666666" y="450" width="110.66666666666666" height="20"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <rect key="frame" x="148.33333333333334" y="450" width="117.66666666666666" height="20"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -61,7 +61,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0637" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-NV-YuB">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0637" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-NV-YuB">
                                                 <rect key="frame" x="35" y="760" width="100" height="100"/>
                                                 <color key="backgroundColor" red="0.082611463960000006" green="0.47496670479999997" blue="0.96568661929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -69,7 +69,7 @@
                                                     <constraint firstAttribute="height" constant="100" id="Peu-dC-DI4"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hy2-5B-2r2">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0773" translatesAutoresizingMaskIntoConstraints="NO" id="hy2-5B-2r2">
                                                 <rect key="frame" x="35" y="880" width="100" height="100"/>
                                                 <color key="backgroundColor" red="0.082611463960000006" green="0.47496670479999997" blue="0.96568661929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -117,10 +117,106 @@
                                                     <constraint firstAttribute="height" constant="100" id="tYZ-Gf-LR5"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xm6-fc-Tsz">
-                                                <rect key="frame" x="225" y="800" width="88" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xm6-fc-Tsz">
+                                                <rect key="frame" x="141" y="820" width="273" height="40"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04e-Nm-CsX">
+                                                <rect key="frame" x="141" y="1060" width="276" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F90-gW-OIn">
+                                                <rect key="frame" x="138" y="1180" width="276" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0V-ys-3d9">
+                                                <rect key="frame" x="138" y="1300" width="276" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IW-Hn-Fcp">
+                                                <rect key="frame" x="138" y="1420" width="276" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hz-M0-JoV">
+                                                <rect key="frame" x="141" y="1377" width="271" height="20.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgc-zO-Mh5">
+                                                <rect key="frame" x="141" y="1257" width="271" height="20.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbF-5G-RU1">
+                                                <rect key="frame" x="141" y="1137" width="271" height="20.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feI-PB-rw0">
+                                                <rect key="frame" x="144" y="1017" width="271" height="20.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design - Roland Zhang" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zep-EI-f3W">
+                                                <rect key="frame" x="141" y="777" width="271" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I'm Ryan Lee, class of 2022 of Irvington High School. I enjoy playing video games, and most of my time is spent with myself." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLA-5T-RMQ">
+                                                <rect key="frame" x="141" y="940" width="273" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Programmer - Ryan Lee" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQ7-O1-41Z">
+                                                <rect key="frame" x="141" y="897" width="271" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdq-iP-7nf">
+                                                <rect key="frame" x="138" y="1540" width="276" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">I’m Roland Zhang, and I’m part of the ‘22 graduating class at Irvington High School. I enjoy art and design, often taking inspiration from my current surroundings.</string>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lead Design" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRd-ik-c4d">
+                                                <rect key="frame" x="141" y="1497" width="271" height="20.666666666666629"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -141,9 +237,12 @@
                                             <constraint firstItem="KUB-Ph-Mqx" firstAttribute="top" secondItem="FOr-21-B94" secondAttribute="bottom" constant="20" id="ECa-up-tnb"/>
                                             <constraint firstAttribute="height" constant="1600" id="F51-iX-4ib"/>
                                             <constraint firstItem="cps-fa-gQw" firstAttribute="top" secondItem="zfL-mr-Gra" secondAttribute="bottom" constant="20" id="Gbg-kP-f2g"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xm6-fc-Tsz" secondAttribute="trailing" id="H3i-KR-hQH"/>
+                                            <constraint firstItem="Xm6-fc-Tsz" firstAttribute="top" secondItem="y6X-r1-bmz" secondAttribute="bottom" constant="90" id="Lbd-dM-cJP"/>
                                             <constraint firstItem="zfL-mr-Gra" firstAttribute="top" secondItem="wSe-In-r3W" secondAttribute="bottom" constant="20" id="M3L-lV-frQ"/>
                                             <constraint firstItem="uhI-Bv-TjO" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="PKD-pW-eoq"/>
                                             <constraint firstItem="hbi-6c-9po" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="QHb-f0-KcN"/>
+                                            <constraint firstItem="Xm6-fc-Tsz" firstAttribute="leading" secondItem="P1e-NV-YuB" secondAttribute="trailing" constant="8" symbolic="YES" id="RcQ-3a-CbS"/>
                                             <constraint firstItem="ggc-lb-gK3" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="50" id="T36-yt-auL"/>
                                             <constraint firstItem="ggc-lb-gK3" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="T48-iB-mHF"/>
                                             <constraint firstItem="y6X-r1-bmz" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="TVI-in-136"/>
@@ -152,10 +251,12 @@
                                             <constraint firstItem="uhI-Bv-TjO" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="gue-ET-yRi"/>
                                             <constraint firstItem="FOr-21-B94" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="35" id="h9c-Dr-Twx"/>
                                             <constraint firstItem="ggc-lb-gK3" firstAttribute="top" secondItem="uhI-Bv-TjO" secondAttribute="bottom" constant="100" id="hZw-IO-Bhh"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xm6-fc-Tsz" secondAttribute="trailing" id="iuR-g0-38c"/>
                                             <constraint firstItem="wSe-In-r3W" firstAttribute="top" secondItem="KUB-Ph-Mqx" secondAttribute="bottom" constant="20" id="j7d-fz-4WN"/>
                                             <constraint firstItem="wSe-In-r3W" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="35" id="l0O-PJ-BZ1"/>
                                             <constraint firstItem="KUB-Ph-Mqx" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="35" id="lfA-9d-ESh"/>
                                             <constraint firstItem="RLS-ps-mdW" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" id="sbT-3e-MQY"/>
+                                            <constraint firstAttribute="trailing" secondItem="Xm6-fc-Tsz" secondAttribute="trailing" id="ufg-Bs-ekL"/>
                                             <constraint firstItem="P1e-NV-YuB" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="35" id="vJb-AQ-y3V"/>
                                             <constraint firstItem="zfL-mr-Gra" firstAttribute="leading" secondItem="3pB-ch-NCJ" secondAttribute="leading" constant="35" id="wGv-Rb-XSt"/>
                                             <constraint firstItem="RLS-ps-mdW" firstAttribute="centerX" secondItem="3pB-ch-NCJ" secondAttribute="centerX" id="zLy-aD-aUQ"/>
@@ -258,6 +359,7 @@
     </scenes>
     <resources>
         <image name="IMG_0637" width="2320" height="3088"/>
+        <image name="IMG_0773" width="2320" height="3088"/>
         <image name="IMG_8069" width="1080" height="960"/>
         <image name="mappin" catalog="system" width="105" height="128"/>
         <systemColor name="systemBackgroundColor">
